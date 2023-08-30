@@ -125,6 +125,25 @@ li {
     line-height: 2rem;
 }
 
+@media screen and (max-width: 500px) {
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    .hero-content span {
+        font-family: var(--font-poppins);
+        color: #fffcfc;
+        font-size: 15px;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .sub-header ul.right-icons {
+        display: none;
+    }
+}
+
 .bg-cover {
     background-position: center !important;
     background-size: cover !important;
