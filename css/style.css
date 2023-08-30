@@ -125,7 +125,7 @@ li {
     line-height: 2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
     .hero-content p {
         font-size: 15px;
     }
@@ -138,7 +138,7 @@ li {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
     .sub-header ul.right-icons {
         display: none;
     }
